@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -6,6 +7,7 @@ function Contact({}: Props) {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <div className="flex flex-col space-y-4 w-96 text-start">
+        <Link href="/">&larr; Home</Link>
         <h1 className="text-4xl">Contact</h1>
         <p> This is the contact page </p>
         <p className="my-3">
