@@ -20,7 +20,7 @@ const Home = (props: Props) => {
           <Link href="/report/1">Report &rarr;</Link>
         </li>
       </ul>
-    </main>http://localhost:3000/service
+    </main>
   );
 };
 
